@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Getting Started with Bootstrap</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Start of Navigation Bar -->
+<nav class="navbar navbar-inverse navbar-static-top no-margin" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-WDM-navbar-collapse-1">
+        	<span class="sr-only">Toggle navigation</span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+    		</button>
+			<a class="navbar-brand" href="#"><img src="images/logo-blog.png"></a>
+		</div>
+	
+		<div class="collapse navbar-collapse navbar-right" id="bs-WDM-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active" ><a href="index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li class="dropdown">
+		          	<a href="#" class="dropdown-toggle" data-toggle="dropdown">WDM Dropdown<b class="caret"></b></a>
+		          	<ul class="dropdown-menu">
+		            	<li><a href="#">Link1</a></li>
+		            	<li><a href="#">Link2</a></li>
+			            <li><a href="#">Link3</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">One more separated link</a></li>
+		          	</ul>
+	        	</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- End of Navigation Bar -->
+
+<!-- Start of Jumbotron -->
+<div class="jumbotron">
+	<div class="container">
+		<img src="images/logo-tbg.png" height="200px" class="pull-left">
+		<h2 class="no-margin">WebDevMentors</h2>
+		<p>WebDevMentors is a Start-up created by a group of Web Developers and Mobile Application Developers to share knowledge and to provide quality and affordable services on Web and Mobile Platforms to people with a motive to spread the awareness and necessity to bring the business and organization to the world in a better reach. We also provide free advice on web development and selecting hosting for non-profit organizations. </p>
+		<p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+	</div>
+</div>
+<!-- End of Jumbotron -->
+
+<!-- Start of Website Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="panel panel-default">
+  			<div class="panel-body">
+			<img src="images/webbasedservices.jpg" class="img-responsive"/>
+			<h4>Web Based Services</h4>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Twitter Bootstrap</li>
+				<li>PHP</li>
+				<li>Wordpress</li>
+				<li>and more...</li>
+			</ul>
+			<a href="#" class="btn btn-default btn-lg active">Read More</a>
+		</div></div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="panel panel-default">
+  			<div class="panel-body">
+			<img src="images/mobbasedservices.jpg" class="img-responsive"/>
+			<h4>Mobile Based Services</h4>
+			<ul>
+				<li>Android</li>
+				<li>Responsive Websites</li>
+				<li>and more...</li>
+			</ul>
+			<a href="#" class="btn btn-primary btn-sm disabled">Read More</a>
+		</div></div>
+		</div>
+		<div class="col-md-4">
+			<div class="panel panel-default">
+  			<div class="panel-body">
+			<img src="images/ess-services.jpg" class="img-responsive"/>
+			<h4>Essential Services</h4>
+			<ul>
+				<li>SEO</li>
+				<li>SMO</li>
+				<li>Google Analytics</li>
+				<li>and more...</li>
+			</ul>
+			<button id="btnwdm" name="btnwdm" class="btn btn-link">Some Button</button>
+		</div>
+		</div></div>
+	</div>
+</div>
+<!-- End of Website Main Content --> 
+
+<!-- Start of the Footer -->
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-5">
+			<h4>Contact Address</h4>
+			<address>
+				#999,Street of place,<br>
+				City of place,<br>
+				Country.
+			</address>
+		</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="col-md-5">© Copyright WebDevMentors 2014.</div>
+			<div class="col-md-7">
+				<ul class="footer-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contacts</a></li>
+					<li><a href="Link.html">Link</a></li>
+				</ul>	
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- End of the Footer -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

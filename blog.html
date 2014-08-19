@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Getting Started with Bootstrap</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+<!-- Start of Navigation Bar -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-WDM-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+    		</button>
+			<a class="navbar-brand" href="#"><img src="images/logo-blog.png"></a>
+		</div>
+	
+		<div class="collapse navbar-collapse navbar-right" id="bs-WDM-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">WDM Dropdown<b class="caret"></b></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Link1</a></li>
+		            <li><a href="#">Link2</a></li>
+		            <li><a href="#">Link3</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+	        	</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- End of Navigation Bar -->
+
+
+<!-- Start of Website Main Content -->
+<div class="container">
+	<div class="row">
+		<!-- Start of Blog Post Content -->
+		<div class="col-md-9 col-md-push-3">
+			<div class="panel panel-default">
+  			<div class="panel-body">
+			<div class="row">
+				<div class="col-md-9">
+					<img src="images/testimg.jpg" class="img-responsive img-thumbnail" >
+				</div>
+				<div class="col-md-3">
+					<h4><span class="glyphicon glyphicon-eye-open"></span> 300 </h4>
+					<h4><span class="glyphicon glyphicon-thumbs-up" ></span> 200</h4>
+				</div>
+			</div>
+			<p class="h3">Why should a Website be Responsive?<br> <small>16 June 2014</small></p>
+			<p>Well if you are expecting reasons for why your website should be responsive there are so many that I can write a book on it. Internet has become an on the go reference library for millions of people having access to it. Millions of people would like to access internet through mobile devices like Smart Phones, Tablets, Phablets, etc., making a major portion of internet users from mobile platforms.</p>
+			<div class="table-responsive">
+			<table class="table table-bordered table-hover table-condensed">
+				<tbody>
+				<tr>
+					<th>Device Type</th>
+					<th>Devices</th>
+					<th>2012</th>
+					<th>2013</th>
+					<th>Change</th>
+				</tr>
+				<tr>
+					<td>Traditional</td>
+					<td>Desktops, Laptops, etc.,</td>
+					<td>88.62%</td>
+					<td>78.99%</td>
+					<td class="danger">-9.63%</td>
+				</tr>
+				<tr>
+					<td>Smartphone</td>
+					<td>Windows Mobile, IPhone, Android Devices</td>
+					<td>5.42%</td>
+					<td>10.44%</td>
+					<td class="success">+5.02%</td>
+				</tr>
+				<tr>
+					<td>Tablets</td>
+					<td>Tabs, IPads, Slates</td>
+					<td>5.95%</td>
+					<td>10.58%</td>
+					<td class="success">+4.63%</td>
+				</tr>
+			</tbody>
+			</table>
+			
+		
+			
+		</div>
+		<dl class="dl-horizontal">
+			<dt>Device Type</dt>
+			<dd>Traditional</dd>
+			<dt>Devices</dt>
+			<dd>Laptop, Desktop, TV,etc...</dd>
+			<dt>2012</dt>
+			<dd>88.62%</dd>
+			<dt>2013</dt>
+			<dd>78.99%</dd>
+			<dt>Change</dt>
+			<dd>-9.63%</dd>
+		</dl>
+	</div></div></div>
+
+	<!-- Start of Side Bar -->
+	<div class="col-md-3 col-md-pull-9">
+		<div class="panel panel-default">
+  		<div class="panel-body">
+		<h3>Sidebar with Links</h3>
+		
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+			<li><a href="#">Link 5</a></li>
+		</ul>
+	</div></div>
+	</div>
+
+</div>
+</div>
+<!-- Start of the Footer -->
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-5">
+			<h4>Contact Address</h4>
+			<address>
+				#999,Street of place,<br>
+				City of place,<br>
+				Country.
+			</address>
+		</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="col-md-5">© Copyright WebDevMentors 2014.</div>
+			<div class="col-md-7">
+				<ul class="footer-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contacts</a></li>
+					<li><a href="Link.html">Link</a></li>
+				</ul>	
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- End of the Footer -->
+<!-- End of Website Main Content --> 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
